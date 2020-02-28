@@ -37,9 +37,16 @@
       </div>
 
       <script id='DOM manipulation script'>
-        debugger;
-        // write me! (... without using cloneNode, that's kind of cheating)
-      </script>
+         const aEl = document.createElement('a');
+        aEl.innerText = 'learn about badgers';
+        aEl.href = 'https://www.badgerbadgerbadger.com';
+        aEl.target = '_blank';
+
+        document.getElementById('replication')
+        const targetDiv = document.getElementById('target');
+        const replicationDiv = document.getElementById('replication');
+        targetDiv.children[0].innerText = replicationDiv.children[0].innerText;s
+        </script>
 
     </div>
 

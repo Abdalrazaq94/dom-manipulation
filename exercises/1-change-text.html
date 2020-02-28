@@ -36,9 +36,10 @@
       </div>
 
       <script id='DOM manipulation script'>
-        debugger;
-        // write me! (... without using cloneNode, that's kind of cheating)
-      </script>
+          const targetDiv = document.getElementById('target');
+        const replicationDiv = document.getElementById('replication');
+        targetDiv.children[0].innerText = replicationDiv.children[0].innerText;
+       </script>
 
     </div>
 
